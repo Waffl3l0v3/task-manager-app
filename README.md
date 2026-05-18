@@ -24,7 +24,9 @@ This app features a dynamic, dark-mode user interface, priority tracking, and a 
 2. **Configure Environment Variables:**
    Navigate to the `server/` directory and configure your `.env` file containing your MongoDB URI and desired port:
    ```env
-   MONGO_URI=your_mongodb_connection_string
+   MONGO_URI=mongodb+srv://<username>:<password>@cluster0.xxxxx.mongodb.net/e-commerce-app?retryWrites=true&w=majority
+PORT=5000
+
    PORT=5000
    ```
 
